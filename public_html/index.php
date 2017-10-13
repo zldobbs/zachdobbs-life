@@ -194,13 +194,13 @@
         <!-- Titter -->
         <div class="col-md-6 col-xs-12">
           <div class="panel-heading">
-            <a href="https://zld6fd-sample-app.herokuapp.com">
+            <a href="https://zachdobbs-rails.herokuapp.com">
               <h2>Rails Application</h2>
             </a>
           </div>
           <div class="row panel-body">
             <div class="panel-img">
-              <a href="https://zld6fd-sample-app.herokuapp.com">
+              <a href="https://zachdobbs-rails.herokuapp.com">
                 <img class="img-responsive" src="img/twitter_screen.png" alt="Titter Website">
               </a>
             </div>
@@ -317,6 +317,6 @@
         </ul>
       </div>
     </div>
-    
+
   </body>
 </html>

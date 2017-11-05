@@ -21,12 +21,12 @@
     <style>
       body {
         background-color: #2c332e;
-        font-family: 'Arimo', sans-serif;
+        /*font-family: 'Arimo', sans-serif;*/
       }
 
       h1 {
         font-size: 8vh;
-        font-family: 'Varela Round', sans-serif;
+        /*font-family: 'Varela Round', sans-serif;*/
       }
 
       h1, h2, h3 {
@@ -67,29 +67,10 @@
       }
 
       .area {
-        background-color: #427c61;
-        margin-top: 50px;
+        background-color: #00695c ;
+        text-align: center;
         color: #ededed;
         padding: 20px;
-      }
-
-      .nav-pills li {
-        float: none;
-        display: inline-block;
-        margin: 5px;
-        border-radius: 5px;
-        box-shadow: 2px 2px 2px #2c332e;
-      }
-
-      .nav-pills li a {
-        color: #2c332e;
-        background-color: #ededed;
-        transition: all .2s ease-in-out;
-      }
-
-      .nav-pills li a:hover {
-        color: #ededed;
-        background-color: #2c332e;
       }
 
       .btn {
@@ -111,10 +92,6 @@
         color: #ededed;
       }
 
-      .container-fluid {
-        text-align: center;
-      }
-
       #profile-pic {
         border: 2px solid #ededed;
         box-shadow: 2px 2px 2px #000;
@@ -123,6 +100,9 @@
 
       #welcome {
         background-color: #ededed;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
       }
 
       #welcome h1 {
@@ -133,15 +113,14 @@
 
   <body>
     <!-- Welcome -->
-    <div class="container" id="welcome">
+    <div id="welcome">
       <div class="row">
         <h1>Zachary Dobbs</h1>
       </div>
     </div>
-
     <!-- About -->
-    <div class="container area">
-      <div class="container">
+    <div class="area">
+      <div >
         <h1>About</h1>
         <img src="img/me.jpeg" alt="Profile Pic" class="circle responsive-img" id="profile-pic">
         <p>My name is Zachary Dobbs. I am from Southern Illinois and currently attend
@@ -156,9 +135,14 @@
         </div>
       </div>
     </div>
-
+    <div class="parallax-container">
+      <div class="parallax">
+        <img src="img/mu.jpg"
+             alt="parallax-campus">
+      </div>
+    </div>
     <!-- Portfolio -->
-    <div class="container area">
+    <div class="area">
       <h1>Portfolio</h1>
       <p>Some of my favorite projects I have developed in the past few years. Live demos can be accessed by clicking
         the project's image.</p>
@@ -300,14 +284,25 @@
         </div>
       </div>
     </div>
-
+    <div class="parallax-container">
+      <div class="parallax">
+        <img src="img/centaurus.jpg"
+             alt="parallax-river">
+      </div>
+    </div>
     <!-- Footer -->
-    <div class="container area">
+    <div class="area">
       <div class="row">
         <a class="waves-effect waves-light btn" href="mailto:dobbszach@gmail.com">&copy; Zachary Dobbs 2017</a>
         <a class="waves-effect waves-light btn" href="https://github.com/zldobbs/zachdobbs-life">View this page's GitHub Source</a>
       </div>
     </div>
-
   </body>
+  <!-- Javascript Sandbox -->
+  <script>
+    $(document).ready(function() {
+      // Parallax
+      $('.parallax').parallax();
+    });
+  </script>
 </html>

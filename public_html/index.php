@@ -58,6 +58,7 @@
 
       .panel-text + p {
         height: 100%;
+        color: green;
       }
 
       .panel-btn {

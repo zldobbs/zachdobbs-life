@@ -56,6 +56,10 @@
         position: relative;
       }
 
+      .panel-text + p {
+        height: 100%;
+      }
+
       .panel-btn {
         position: absolute;
         bottom: 0;

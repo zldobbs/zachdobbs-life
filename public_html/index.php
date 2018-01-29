@@ -88,6 +88,10 @@
         padding: 20px;
       }
 
+      .area .row .col {
+        height: 100%;
+      }
+
       .btn {
         color: #2c332e;
         background-color: #ededed;

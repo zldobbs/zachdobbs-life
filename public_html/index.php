@@ -49,7 +49,6 @@
 
       .panel-body {
         margin-bottom: 15px;
-        height: 35vh;
       }
 
       .panel-text {
@@ -86,6 +85,10 @@
         padding: 20px;
       }
 
+      .area .row {
+        height: 30vh;
+      }
+      
       .btn {
         color: #2c332e;
         background-color: #ededed;
@@ -133,7 +136,7 @@
     </div>
     <!-- About -->
     <div class="area">
-      <div >
+      <div>
         <h1>About</h1>
         <img src="img/me.jpeg" alt="Profile Pic" class="circle responsive-img" id="profile-pic">
         <p>My name is Zachary Dobbs. I am from Southern Illinois and currently attend

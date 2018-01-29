@@ -49,18 +49,20 @@
 
       .panel-body {
         margin-bottom: 15px;
-        height: 40vh;
+        height: 50vh;
       }
 
       .panel-text {
         margin-top: 35px;
         position: relative;
-        padding-bottom: 50px;
       }
 
       .panel-text .btn {
         position: absolute;
         bottom: 0;
+        left: 0;
+        right: 0;
+        width: 50%;
         margin: 0 auto;
       }
 

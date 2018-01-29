@@ -53,6 +53,7 @@
       }
 
       .panel-text {
+        height: 100%;
         margin-top: 35px;
         position: relative;
       }

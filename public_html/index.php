@@ -53,6 +53,12 @@
 
       .panel-text {
         margin-top: 35px;
+        position: relative;
+      }
+
+      .panel-text .btn {
+        position: absolute;
+        bottom: 0;
       }
 
       .panel-img img {

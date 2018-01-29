@@ -48,7 +48,7 @@
       }
 
       .panel-heading {
-        margin-top: 10vh;
+        margin-top: 1000px;;
       }
 
       .panel-body {

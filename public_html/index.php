@@ -53,10 +53,10 @@
 
       .panel-text {
         height: 100%;
-        position: relative;
+        /* position: relative; */
         padding-bottom: 20vh;
       }
-
+/*
       .panel-text .btn {
         position: absolute;
         bottom: 0;
@@ -64,7 +64,7 @@
         right: 0;
         width: 50%;
         margin: 0 auto;
-      }
+      } */
 
       .panel-img img {
         width: 360px;
@@ -82,10 +82,6 @@
         text-align: center;
         color: #ededed;
         padding: 20px;
-      }
-
-      .area .row {
-        height: 30vh;
       }
 
       .btn {

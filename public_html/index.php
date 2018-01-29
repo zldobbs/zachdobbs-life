@@ -53,18 +53,17 @@
 
       .panel-text {
         height: 100%;
-        /* position: relative; */
-        padding-bottom: 20vh;
+        position: relative;
       }
-/*
-      .panel-text .btn {
+
+      .panel-btn {
         position: absolute;
         bottom: 0;
         left: 0;
         right: 0;
         width: 50%;
         margin: 0 auto;
-      } */
+      }
 
       .panel-img img {
         width: 360px;
@@ -196,7 +195,9 @@
               <p>A GroupMe bot that polls a given user timeline continuously, sends realtime tweets to the chat.
                 Options allow users to select up to 5 accounts at a time. Developed in 2017 as a final project for a
                 web development class. </p>
-              <p class="waves-effect waves-light btn"><a href="https://github.com/zldobbs/TwittoMe">GitHub Source</a></p>
+              <div class="panel-btn">
+                <p class="waves-effect waves-light btn"><a href="https://github.com/zldobbs/TwittoMe">GitHub Source</a></p>
+              </div>
             </div>
           </div>
         </div>

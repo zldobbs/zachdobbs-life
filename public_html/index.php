@@ -47,10 +47,6 @@
         margin: 0 auto;
       }
 
-      .panel-heading {
-        margin-top: 20vh;
-      }
-
       .panel-body {
         margin-bottom: 15px;
         height: 25vh;
@@ -60,7 +56,7 @@
         height: 100%;
         margin-top: 35px;
         position: relative;
-        padding-bottom: 15vh;
+        padding-bottom: 20vh;
       }
 
       .panel-text .btn {

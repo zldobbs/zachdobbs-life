@@ -56,10 +56,6 @@
         position: relative;
       }
 
-      .panel-text + p {
-        margin-bottom: 20px;
-      }
-
       .panel-btn {
         position: absolute;
         bottom: 0;
@@ -178,7 +174,9 @@
             <div class="panel-text">
               <p>A sample application developed using the Python microframework Flask. This blogging site
               was a fun exploration for me to learn about the possibilities of using Flask.</p>
-              <p class="waves-effect waves-light btn"><a href="https://github.com/zldobbs/flask-app">GitHub Source</a></p>
+              <div class="panel-btn">
+                <p class="waves-effect waves-light btn"><a href="https://github.com/zldobbs/flask-app">GitHub Source</a></p>
+              </div>
             </div>
           </div>
         </div>

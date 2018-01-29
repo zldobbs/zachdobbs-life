@@ -49,6 +49,7 @@
 
       .panel-body {
         margin-bottom: 15px;
+        height: 40vh;
       }
 
       .panel-text {
@@ -60,7 +61,7 @@
       .panel-text .btn {
         position: absolute;
         bottom: 0;
-        left: 50%;
+        margin: 0 auto;
       }
 
       .panel-img img {

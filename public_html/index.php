@@ -56,19 +56,19 @@
         position: relative;
       }
 
-      .panel-text p {
+      /* .panel-text p {
         height: 100%;
         color: green;
-      }
+      } */
 
-      .panel-btn {
+      /* .panel-btn {
         position: absolute;
         bottom: 0;
         left: 0;
         right: 0;
         width: 50%;
         margin: 0 auto;
-      }
+      } */
 
       .panel-img img {
         width: 360px;
@@ -86,10 +86,6 @@
         text-align: center;
         color: #ededed;
         padding: 20px;
-      }
-
-      .area .row .col {
-        height: 100%;
       }
 
       .btn {

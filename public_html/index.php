@@ -56,7 +56,7 @@
         position: relative;
       }
 
-      .panel-text + p {
+      .panel-text p {
         height: 100%;
         color: green;
       }

@@ -44,8 +44,7 @@
       }
 
       img.responsive-img {
-        margin: 0 auto;
-        padding: 20px;
+        margin: 10px auto;
       }
 
       .panel-body {

@@ -49,7 +49,7 @@
 
       .panel-body {
         margin-bottom: 15px;
-        height: 25vh;
+        height: 35vh;
       }
 
       .panel-text {

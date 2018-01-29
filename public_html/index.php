@@ -60,6 +60,7 @@
         height: 100%;
         margin-top: 35px;
         position: relative;
+        padding-bottom: 15vh;
       }
 
       .panel-text .btn {

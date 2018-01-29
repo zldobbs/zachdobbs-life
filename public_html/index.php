@@ -54,11 +54,13 @@
       .panel-text {
         margin-top: 35px;
         position: relative;
+        padding-bottom: 50px;
       }
 
       .panel-text .btn {
         position: absolute;
         bottom: 0;
+        left: 50%;
       }
 
       .panel-img img {

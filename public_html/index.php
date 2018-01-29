@@ -47,6 +47,10 @@
         margin: 0 auto;
       }
 
+      .panel-heading {
+        margin-top: 10vh;
+      }
+
       .panel-body {
         margin-bottom: 15px;
         height: 30vh;

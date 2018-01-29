@@ -48,12 +48,12 @@
       }
 
       .panel-heading {
-        margin-top: 1000px;;
+        margin-top: 20vh;
       }
 
       .panel-body {
         margin-bottom: 15px;
-        height: 30vh;
+        height: 25vh;
       }
 
       .panel-text {

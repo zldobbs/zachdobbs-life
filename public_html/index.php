@@ -45,6 +45,7 @@
 
       img.responsive-img {
         margin: 0 auto;
+        padding: 20px;
       }
 
       .panel-body {
@@ -53,7 +54,6 @@
 
       .panel-text {
         height: 100%;
-        margin-top: 35px;
         position: relative;
         padding-bottom: 20vh;
       }
@@ -88,7 +88,7 @@
       .area .row {
         height: 30vh;
       }
-      
+
       .btn {
         color: #2c332e;
         background-color: #ededed;

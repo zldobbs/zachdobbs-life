@@ -262,21 +262,19 @@
         <!-- Cycle Fitness -->
         <div class="col m6 push-m3 s12">
           <div class="panel-heading">
-            <a href="/cycle/">
-              <h2>Cycle Fitness</h2>
+            <a href="https://github.com/zldobbs/Poker">
+              <h2>Poker Application</h2>
             </a>
           </div>
           <div class="row panel-body">
             <div class="panel-img">
-              <a href="/cycle/">
-                <img class="responsive-img" src="img/cycle_screen.png" alt="Cycle Fitness Website">
+              <a href="https://github.com/zldobbs/Poker">
+                <img class="responsive-img" src="img/poker_screen.png" alt="Poker Application">
               </a>
             </div>
             <div class="panel-text">
-              <p>Website developed for an FBLA web design competition during my Junior year of high school.
-              Developed using vanilla HTML, CSS, and jQuery. Won sixth place competing at the Illinois
-              state level.</p>
-              <p class="waves-effect waves-light btn"><a href="https://github.com/zldobbs/cycle-fitness">GitHub Source</a></p>
+              <p>Online poker video game that I am currently developing with socket-io and vue.</p>
+              <p class="waves-effect waves-light btn"><a href="https://github.com/zldobbs/Poker">GitHub Source</a></p>
             </div>
           </div>
         </div>

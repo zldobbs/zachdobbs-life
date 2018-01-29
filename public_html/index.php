@@ -58,7 +58,6 @@
       }
 
       .panel-text .btn {
-        padding-bottom: 50px;
         position: absolute;
         bottom: 0;
         left: 50%;

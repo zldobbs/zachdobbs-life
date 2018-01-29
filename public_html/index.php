@@ -171,21 +171,21 @@
         <!-- Twitter -->
         <div class="col m6 s12">
           <div class="panel-heading">
-            <a href="https://zachdobbs-rails.herokuapp.com">
-              <h2>Rails Application</h2>
+            <a href="https://github.com/zldobbs/TwittoMe">
+              <h2>TwittoMe</h2>
             </a>
           </div>
           <div class="row panel-body">
             <div class="panel-img">
-              <a href="https://zachdobbs-rails.herokuapp.com">
-                <img class="responsive-img" src="img/twitter_screen.png" alt="Titter Website">
+              <a href="https://github.com/zldobbs/TwittoMe">
+                <img class="responsive-img" src="img/twitto_screen.png" alt="Twitto Bot">
               </a>
             </div>
             <div class="panel-text">
-              <p>A twitter clone developed using Ruby on Rails. Based on the fantastic tutorial by
-              <a href="https://www.railstutorial.org"><b>Michael Hartl</b></a>. This project is something I am
-              currently still developing.</p>
-              <p class="waves-effect waves-light btn"><a href="https://github.com/zldobbs/sample_app">GitHub Source</a></p>
+              <p>A GroupMe bot that polls a given user timeline continuously, sends realtime tweets to the chat.
+                Options allow users to select up to 5 accounts at a time. Developed in 2017 as a final project for a
+                web development class. </p>
+              <p class="waves-effect waves-light btn"><a href="https://github.com/zldobbs/TwittoMe">GitHub Source</a></p>
             </div>
           </div>
         </div>
